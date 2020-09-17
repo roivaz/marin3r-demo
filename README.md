@@ -91,7 +91,7 @@ Edit the Service's `spec.ports` with:
 ```yaml
   ports:
   - name: https
-    port: 8443
+    port: 443
     protocol: TCP
     targetPort: https
 ```
