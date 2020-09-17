@@ -40,8 +40,6 @@ kind: Service
 metadata:
   name: kuard
   namespace: marin3r-demo
-  annotations:
-    external-dns.alpha.kubernetes.io/hostname: kuard.dev.3sca.net
 spec:
   ports:
   - name: http
